@@ -1,0 +1,66 @@
+@use "../utils/variable";
+
+body {
+    min-width: 22.5rem;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+main {
+    margin: 0;
+}
+
+h1,h2 {
+    padding: 0;
+    margin: 0;
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+  
+.conteneur {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+  
+i.fa-mobile-alt, .fa-list-ul, .fa-store {
+    color: gray;
+    font-size: 1.125rem;
+}
+i.fa-store {
+    color: #9356DC;
+} 
+i.fa-solid.fa-ustensils, i.fa-solid.fa-handshake-angle {
+    font-size: 0.813rem;
+}
+
+// restaurants //
+
+i.fa-regular.fa-heart i.fa-solid.fa-heart {
+  font-size: 1.313rem;
+}
+
+i.fa-solid.fa-arrow-left {
+  position: absolute;
+  left: 3px;
+  font-size: 1.875rem;
+}
+
+i.fa-solid.fa-ustensils, i.fa-solid.fa-handshake-angle {
+  font-size: 0.813rem;
+}
+
+i.fa-check-circle {
+    color: white;
+}

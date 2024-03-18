@@ -1,0 +1,28 @@
+@use "../utils/variable";
+
+header {
+    padding: 0.938rem 5.563rem 0.875rem 5.563rem;
+}
+.banner_logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    img {
+        width: 12.313rem;
+        height: 2.25rem;
+    }
+}
+
+.header_restaurant {
+    padding: 0.88rem 0 0.88rem 1.065rem;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  .banner__image {
+    width: 12.5rem;
+    height: 2.13763rem;
+    padding: 0;
+  }
+}
