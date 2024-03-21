@@ -30,10 +30,11 @@ img {
 }
   
 .conteneur {
-    max-width: 1080px;
+    max-width: 1024px;
     margin: 0 auto;
 }
-  
+// Icons FontAwesome //
+
 i.fa-mobile-alt, .fa-list-ul, .fa-store {
     color: gray;
     font-size: 1.125rem;
@@ -45,7 +46,6 @@ i.fa-solid.fa-ustensils, i.fa-solid.fa-handshake-angle {
     font-size: 0.813rem;
 }
 
-// restaurants //
 
 i.fa-regular.fa-heart i.fa-solid.fa-heart {
   font-size: 1.313rem;
@@ -63,4 +63,25 @@ i.fa-solid.fa-ustensils, i.fa-solid.fa-handshake-angle {
 
 i.fa-check-circle {
     color: white;
+}
+// animation //
+.fa-3x {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    i {
+        margin: 0 50px;
+    }
+}
+i.fa-solid.fa-martini-glass-citrus, i.fa-solid.fa-spinner, i.fa-solid.fa-bowl-rice {
+    font-size: 150px;
+}
+.fa-solid.fa-martini-glass-citrus {
+    color: #FF79DA;
+}
+.fa-solid.fa-spinner {
+    color: #9356DC;
+}
+.fa-solid.fa-bowl-rice {
+    color: #99e2d0;
 }

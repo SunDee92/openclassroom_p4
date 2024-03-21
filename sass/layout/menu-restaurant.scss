@@ -59,9 +59,9 @@
             background: none;
             border: none;
             cursor: pointer;
-            position: absolute;
+            position: relative;
             right: 71px;
-            top: 51px;
+            top: -30px;
             font-size: 24px;
             i {
                 position: absolute;
@@ -186,12 +186,11 @@
     }*/
     .restaurant__title {
         justify-content: center;
+        .card__btn--heart2 {
+            top: -27px;
+            right: -29px;
+        }
     }
-    .card__btn--heart2 {
-        top: 51px;
-        right: 100px;
-    }
-    
 }
   
   
