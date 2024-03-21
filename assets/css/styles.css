@@ -80,10 +80,6 @@ i.fa-solid.fa-ustensils, i.fa-solid.fa-handshake-angle {
   font-size: 0.813rem;
 }
 
-i.fa-check-circle {
-  color: white;
-}
-
 .fa-3x {
   display: flex;
   justify-content: space-around;
@@ -508,6 +504,7 @@ header {
   padding: 20px;
 }
 .menu__content--animation {
+  color: #FFF;
   font-size: 1.25rem;
   width: 0;
   font-size: 0;

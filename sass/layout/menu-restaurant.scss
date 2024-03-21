@@ -76,7 +76,6 @@
                     opacity: 0;
                 }
             }
-              
             i.fa-solid {
                 opacity: 0;
                 &:hover {
@@ -133,6 +132,7 @@
             padding: 20px;
         }
         &--animation {
+            color: #FFF;
             font-size: 1.25rem;
             width: 0;
             font-size: 0;
