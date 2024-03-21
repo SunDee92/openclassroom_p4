@@ -2,9 +2,9 @@
   position: fixed;
   display: flex;
   justify-content: center;
-  background-color: white;
+  background-color: #FFFFFF;
   height: 100vh;
-  inset: 0px;
+  inset: 0;
   z-index: 1;
   opacity: 0.8;
   animation: loader 200ms 3s forwards;
@@ -49,7 +49,7 @@ img {
 }
 
 .conteneur {
-  max-width: 1024px;
+  max-width: 64rem;
   margin: 0 auto;
 }
 
@@ -72,8 +72,8 @@ i.fa-regular.fa-heart i.fa-solid.fa-heart {
 
 i.fa-solid.fa-arrow-left {
   position: absolute;
-  left: 3px;
-  font-size: 1.875rem;
+  left: 0.188rem;
+  font-size: 1.6rem;
 }
 
 i.fa-solid.fa-ustensils, i.fa-solid.fa-handshake-angle {
@@ -86,11 +86,11 @@ i.fa-solid.fa-ustensils, i.fa-solid.fa-handshake-angle {
   align-items: center;
 }
 .fa-3x i {
-  margin: 0 50px;
+  margin: 0 3.125rem;
 }
 
 i.fa-solid.fa-martini-glass-citrus, i.fa-solid.fa-spinner, i.fa-solid.fa-bowl-rice {
-  font-size: 150px;
+  font-size: 9.375rem;
 }
 
 .fa-solid.fa-martini-glass-citrus {
@@ -166,7 +166,6 @@ header {
   font-size: 1.125rem;
   font-weight: 300;
   text-align: center;
-  color: var(--Grey, #353535);
 }
 .homepage .homepage_btn {
   width: 13.625rem;
@@ -178,11 +177,11 @@ header {
 }
 .homepage .homepage_btn:hover {
   opacity: 0.9;
-  /*transform: scale(1.02);*/
   box-shadow: 0 0.25rem 0.938rem 0 rgba(0, 0, 0, 0.7);
+  transition: 0.8s;
 }
 .homepage .homepage_btn--txt {
-  color: white;
+  color: #FFFFFF;
   font-size: 1rem;
 }
 
@@ -212,18 +211,18 @@ header {
 .functioning_btn-circle {
   border-radius: 50%;
   background-color: #9356DC;
-  color: white;
+  color: #FFFFFF;
   width: 1.5rem;
   height: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: -13px;
+  left: -0.813rem;
 }
 
 .functioning_btn-txt {
-  color: black;
+  color: #000000;
   font-size: 1rem;
   font-weight: 600;
   line-height: normal;
@@ -242,7 +241,7 @@ header {
   margin-bottom: 1.75rem;
 }
 .restaurants h3, .restaurants p {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 .restaurants .restaurants__cards {
@@ -253,7 +252,7 @@ header {
 }
 .restaurants .card {
   height: 15.688rem;
-  background-color: white;
+  background-color: #FFFFFF;
   border-radius: 1.563rem;
   position: relative;
 }
@@ -273,16 +272,16 @@ header {
   align-content: space-between;
   justify-content: space-between;
 }
-.restaurants .card__content .card-content-title {
+.restaurants .card__content .card__content-title {
   font-size: 1.125rem;
   font-weight: 700;
 }
-.restaurants .card__content .card__content--subtitle {
-  font-size: 1.063rem;
+.restaurants .card__content .card__content-subtitle {
+  font-size: 1rem;
   font-weight: 300;
 }
 .restaurants .card_new {
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   color: #1b6150;
   position: absolute;
   right: 1.563rem;
@@ -295,8 +294,8 @@ header {
   border: none;
   cursor: pointer;
   position: relative;
-  font-size: 24px;
-  margin-bottom: 5;
+  font-size: 1.5rem;
+  margin-bottom: 0.313rem;
 }
 .card__btn-heart i {
   position: absolute;
@@ -346,7 +345,7 @@ header {
   }
   /*restaurants */
   .restaurants {
-    padding: 30px 0 155px 0;
+    padding: 1.875rem 0 9.688rem 0;
   }
   .restaurants h2 {
     margin-bottom: 1rem;
@@ -365,7 +364,7 @@ header {
   }
 }
 .top__images {
-  height: 350px;
+  height: 21.875rem;
   width: 100%;
   overflow: hidden;
 }
@@ -420,21 +419,21 @@ header {
   font-weight: 400;
 }
 .restaurant__title--txt {
-  color: var(--Black, #101010);
+  color: #000000;
   font-family: Shrikhand;
   font-size: 1.75rem;
   font-weight: 400;
   height: 1.688rem;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 .restaurant__title .card__btn--heart2 {
   background: none;
   border: none;
   cursor: pointer;
   position: relative;
-  right: 71px;
-  top: -30px;
-  font-size: 24px;
+  right: 3.938rem;
+  top: -1.875rem;
+  font-size: 1.5rem;
 }
 .restaurant__title .card__btn--heart2 i {
   position: absolute;
@@ -468,8 +467,8 @@ header {
   width: 100%;
 }
 .menu__card:hover .menu__content--animation {
-  background-color: #99E2D0;
-  font-size: 1.25rem;
+  background-color: #99e2d0;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -481,16 +480,16 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 5px;
+  gap: 0.313rem;
   width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .menu__content {
   display: flex;
   justify-content: space-between;
   border-radius: 0.938rem;
-  background: var(--White, #FFF);
+  background: #FFFFFF;
   box-shadow: 0 0.25rem 0.938rem 0 rgba(0, 0, 0, 0.1);
   position: relative;
 }
@@ -501,19 +500,22 @@ header {
 }
 .menu__content--price {
   display: flex;
-  padding: 20px;
+  padding: 1.25rem;
 }
 .menu__content--animation {
-  color: #FFF;
-  font-size: 1.25rem;
+  color: #FFFFFF;
   width: 0;
   font-size: 0;
 }
+.menu__content h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
 
 .menu_link {
-  border-bottom: 3px solid #99E2D0;
-  width: 40px;
-  padding-bottom: 10px;
+  border-bottom: 0.188rem solid #99E2D0;
+  width: 2.5rem;
+  padding-bottom: 0.625rem;
 }
 
 .menu_title-txt {
@@ -540,16 +542,16 @@ header {
 .menu_btn--color {
   width: 11.625rem;
   height: 3.125rem;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 1.563rem;
-  background: var(--Button-Gradient, linear-gradient(to top, #9356DC -11.44%, #FF79DA 123.93%));
+  background: linear-gradient(to top, #9356DC -11.44%, #FF79DA 123.93%);
   box-shadow: 0 0.25rem 0.938rem 0 rgba(0, 0, 0, 0.35);
 }
 .menu_btn--color:hover {
   opacity: 0.9;
-  /*transform: scale(1.02);*/
   box-shadow: 0 0.25rem 0.938rem 0 rgba(0, 0, 0, 0.7);
+  transition: 0.8s;
 }
 
 @media (min-width: 64rem) {
@@ -560,8 +562,8 @@ header {
     justify-content: center;
   }
   .restaurant__title .card__btn--heart2 {
-    top: -27px;
-    right: -29px;
+    top: -1.688rem;
+    right: -1.813rem;
   }
 }
 footer {

@@ -1,8 +1,8 @@
 @use "../utils/variable";
 
 footer {
-    background-color: variable.$darkgrey;
-    color: variable.$white;
+    background-color: $darkgrey;
+    color: $white;
     padding: 0;
 }
 

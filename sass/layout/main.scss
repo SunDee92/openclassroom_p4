@@ -30,7 +30,6 @@
     font-size: 1.125rem;
     font-weight: 300;
     text-align: center;
-    color: var(--Grey, #353535);
     }
     .homepage_btn {
     width: 13.625rem;
@@ -42,11 +41,11 @@
     }
     .homepage_btn:hover {
     opacity: 0.9;
-    /*transform: scale(1.02);*/
     box-shadow: 0 0.25rem 0.938rem 0 rgba(0, 0, 0, 0.70);
+    transition: 0.8s;
     }
     .homepage_btn--txt {
-    color: white;
+    color: $white;
     font-size: 1rem;
     }
 }
@@ -67,7 +66,7 @@
     height: 4.5rem;
     border: none;
     border-radius: 1.563rem;
-    background: #F6F6F6;
+    background: $lightgreybtn;
     padding-left: 2.09rem;
     width: 100%;
     position: relative;
@@ -75,19 +74,19 @@
 
 .functioning_btn-circle {
     border-radius: 50%;
-    background-color: #9356DC;
-    color: white;
+    background-color: $primaire;
+    color: $white;
     width: 1.5rem;
     height: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: -13px;
+    left: -0.813rem;
 }
 
 .functioning_btn-txt {
-    color: black;
+    color: $black;
     font-size: 1rem;
     font-weight: 600;
     line-height: normal;
@@ -105,7 +104,7 @@
         margin-bottom: 1.75rem;
     }
     h3,p {
-        color: black;
+        color: $black;
         text-decoration: none;
     }
     .restaurants__cards {
@@ -117,7 +116,7 @@
   
     .card {
         height: 15.688rem;
-        background-color: white;
+        background-color: $white;
         border-radius: 1.563rem;
         position: relative;
         img {
@@ -137,19 +136,19 @@
         align-items: baseline;
         align-content: space-between;
         justify-content: space-between;
-        .card-content-title {
+        .card__content-title {
             font-size: 1.125rem;
             font-weight: 700;
         }
-        .card__content--subtitle {
-            font-size: 1.063rem;
+        .card__content-subtitle {
+            font-size: 1rem;
             font-weight: 300;
         }
     }
   
     .card_new {
-        background-color: #99E2D0;
-        color: #1b6150;
+        background-color: $tertiaire;
+        color: $darkgreen;
         position: absolute;
         right: 1.563rem;
         top: 1.563rem;
@@ -161,8 +160,8 @@
     border: none;
     cursor: pointer;
     position: relative;
-    font-size: 24px;
-    margin-bottom: 5;
+    font-size: 1.5rem;
+    margin-bottom: 0.313rem;
     i {
         position: absolute;
         transform: translateY(-50%);
@@ -180,7 +179,7 @@
         opacity: 0; 
         &:hover {
             opacity: 1;
-            background: linear-gradient(to bottom, #9356DC, #FF79DA);
+            background: $heart;
             -webkit-background-clip: text;
             color: transparent;
         } 
@@ -213,7 +212,7 @@
     }
     /*restaurants */
     .restaurants {
-        padding: 30px 0 155px 0;
+        padding: 1.875rem 0 9.688rem 0;
         h2 {
             margin-bottom: 1rem;
         }

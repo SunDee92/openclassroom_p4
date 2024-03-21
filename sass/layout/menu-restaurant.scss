@@ -1,6 +1,6 @@
 
 .top__images {
-    height: 350px;
+    height: 21.875rem;
     width: 100%;
     overflow: hidden;
     img {
@@ -48,21 +48,21 @@
         font-style: normal;
         font-weight: 400;
         &--txt {
-            color: var(--Black, #101010);
+            color: $black;
             font-family: Shrikhand;
             font-size: 1.75rem;
             font-weight: 400;
             height: 1.688rem;
-            padding-bottom: 20px;
+            padding-bottom: 1.25rem;
         }
         .card__btn--heart2 {
             background: none;
             border: none;
             cursor: pointer;
             position: relative;
-            right: 71px;
-            top: -30px;
-            font-size: 24px;
+            right: 3.938rem;
+            top: -1.875rem;
+            font-size: 1.5rem;
             i {
                 position: absolute;
                 transform: translateY(-50%);
@@ -80,7 +80,7 @@
                 opacity: 0;
                 &:hover {
                     opacity: 1; 
-                    background: linear-gradient(to bottom, #9356DC, #FF79DA);
+                    background: $heart;
                     -webkit-background-clip: text;
                     color: transparent;
                 } 
@@ -95,8 +95,8 @@
         &__card {
             width: 100%;
             &:hover .menu__content--animation {
-                background-color: #99E2D0;
-                font-size: 1.25rem;
+                background-color: $tertiaire;
+                font-size: 1.5rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -108,9 +108,9 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                gap: 5px;
+                gap: 0.313rem;
                 width: 100%;
-                padding: 20px;
+                padding: 1.25rem;
             }    
         }
         
@@ -119,7 +119,7 @@
         display: flex;
         justify-content: space-between;
         border-radius: 0.938rem;
-        background: var(--White, #FFF);
+        background: $white;
         box-shadow: 0 0.25rem 0.938rem 0 rgba(0, 0, 0, 0.10);
         position: relative;
         &--txt {
@@ -129,21 +129,24 @@
         }
         &--price {
             display: flex;
-            padding: 20px;
+            padding: 1.25rem;
         }
         &--animation {
-            color: #FFF;
-            font-size: 1.25rem;
+            color: $white;
             width: 0;
             font-size: 0;
             
         }
+        h3 {
+            font-size: 1.125rem;
+            font-weight: 700;
+        }
     }
     
 .menu_link {
-    border-bottom: 3px solid #99E2D0;
-    width: 40px;
-    padding-bottom: 10px;
+    border-bottom: 0.188rem solid #99E2D0;
+    width: 2.5rem;
+    padding-bottom: 0.625rem;
 }
 .menu_title-txt {
     font-size: 1rem;
@@ -167,15 +170,15 @@
 .menu_btn--color {
     width: 11.625rem;
     height: 3.125rem;
-    color: white;
+    color: $white;
     border: none;
     border-radius: 1.563rem;
-    background: var(--Button-Gradient, linear-gradient(to top, #9356DC -11.44%, #FF79DA 123.93%));
+    background: $Button-Gradient;
     box-shadow: 0 0.25rem 0.938rem 0 rgba(0, 0, 0, 0.35);
     &:hover {
         opacity: 0.9;
-    /*transform: scale(1.02);*/
         box-shadow: 0 0.25rem 0.938rem 0 rgba(0, 0, 0, 0.70);
+        transition: 0.8s;
     }
 }
 
@@ -187,8 +190,8 @@
     .restaurant__title {
         justify-content: center;
         .card__btn--heart2 {
-            top: -27px;
-            right: -29px;
+            top: -1.688rem;
+            right: -1.813rem;
         }
     }
 }

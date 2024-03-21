@@ -30,17 +30,17 @@ img {
 }
   
 .conteneur {
-    max-width: 1024px;
+    max-width: 64rem;
     margin: 0 auto;
 }
 // Icons FontAwesome //
 
 i.fa-mobile-alt, .fa-list-ul, .fa-store {
-    color: gray;
+    color: $grey;
     font-size: 1.125rem;
 }
 i.fa-store {
-    color: #9356DC;
+    color: $primaire;
 } 
 i.fa-solid.fa-ustensils, i.fa-solid.fa-handshake-angle {
     font-size: 0.813rem;
@@ -53,31 +53,32 @@ i.fa-regular.fa-heart i.fa-solid.fa-heart {
 
 i.fa-solid.fa-arrow-left {
   position: absolute;
-  left: 3px;
-  font-size: 1.875rem;
+  left: 0.188rem;
+  font-size: 1.6rem;
 }
 
 i.fa-solid.fa-ustensils, i.fa-solid.fa-handshake-angle {
   font-size: 0.813rem;
 }
+
 // animation //
 .fa-3x {
     display: flex;
     justify-content: space-around;
     align-items: center;
     i {
-        margin: 0 50px;
+        margin: 0 3.125rem;
     }
 }
 i.fa-solid.fa-martini-glass-citrus, i.fa-solid.fa-spinner, i.fa-solid.fa-bowl-rice {
-    font-size: 150px;
+    font-size: 9.375rem;
 }
 .fa-solid.fa-martini-glass-citrus {
-    color: #FF79DA;
+    color: $secondaire;
 }
 .fa-solid.fa-spinner {
-    color: #9356DC;
+    color: $primaire;
 }
 .fa-solid.fa-bowl-rice {
-    color: #99e2d0;
+    color: $tertiaire;
 }
