@@ -37,7 +37,7 @@
     height: 3.125rem;
     border: none;
     border-radius: 1.563rem;
-    background: var(--Button-Gradient, linear-gradient(to top, #9356DC -11.44%, #FF79DA 123.93%));
+    background: $Button-Gradient;
     box-shadow: 0 0.25rem 0.938rem 0 rgba(0, 0, 0, 0.35);
     }
     .homepage_btn:hover {
@@ -100,7 +100,7 @@
 }
 .restaurants {
     padding: 3.125rem 1.125rem 3.125rem 1.063rem;
-    background: #F6F6F6;
+    background: $lightgreybtn;
     h2 {
         margin-bottom: 1.75rem;
     }

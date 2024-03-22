@@ -40,7 +40,7 @@
     padding: 0 0.81rem;
     border-radius: 2.5rem 2.5rem 0 0;
     margin: -4rem auto 0;
-    background: var(--Background, #F6F6F6);
+    background: $lightgreybtn;
     &__title {
         display: flex;
         justify-content: space-between;
@@ -144,7 +144,7 @@
     }
     
 .menu_link {
-    border-bottom: 0.188rem solid #99E2D0;
+    border-bottom: 0.188rem solid $tertiaire;
     width: 2.5rem;
     padding-bottom: 0.625rem;
 }
@@ -184,9 +184,7 @@
 
 
 @media (min-width: 64rem) { 
-    /*.conteneur {
-        padding: 0 12rem;
-    }*/
+   
     .restaurant__title {
         justify-content: center;
         .card__btn--heart2 {
