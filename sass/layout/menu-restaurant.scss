@@ -1,3 +1,5 @@
+@use "../utils/variable";
+@use "../utils/mixin";
 
 .top__images {
     height: 21.875rem;
@@ -56,9 +58,7 @@
             padding-bottom: 1.25rem;
         }
         .card__btn--heart2 {
-            background: none;
-            border: none;
-            cursor: pointer;
+            @include mixin.heart;
             position: relative;
             right: 3.938rem;
             top: -1.875rem;

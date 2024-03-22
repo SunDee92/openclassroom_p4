@@ -1,4 +1,5 @@
 @use "../utils/variable";
+@use "../utils/mixin";
 
 .location {
     display: flex;
@@ -156,9 +157,7 @@
     }
 }  
 .card__btn-heart {
-    background: none;
-    border: none;
-    cursor: pointer;
+    @include mixin.heart;
     position: relative;
     font-size: 1.5rem;
     margin-bottom: 0.313rem;
