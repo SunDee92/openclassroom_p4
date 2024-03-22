@@ -539,6 +539,10 @@ header {
   padding: 1.75rem 0 2.5rem 0;
 }
 
+.menu_btn-txt {
+  font-size: 1rem;
+}
+
 .menu_btn--color {
   width: 11.625rem;
   height: 3.125rem;
